@@ -5,3 +5,16 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
+	ignore = dirty
+[submodule "bundle/vim-rails"]
+	path = bundle/vim-rails
+	url = git://github.com/tpope/vim-rails.git
+	ignore = dirty
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
+	ignore = dirty
+[submodule "bundle/vim-ragtag"]
+	path = bundle/vim-ragtag
+	url = git://github.com/tpope/vim-ragtag.git
+	ignore = dirty
