@@ -18,3 +18,7 @@
 	path = bundle/vim-ragtag
 	url = git://github.com/tpope/vim-ragtag.git
 	ignore = dirty
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = git://github.com/majutsushi/tagbar.git
+	ignore = dirty
