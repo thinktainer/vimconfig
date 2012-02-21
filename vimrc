@@ -1,25 +1,5 @@
-""if has("autocmd") && exists("+omnifunc")
-""	autocmd Filetype *
-""				\	if &omnifunc == "" |
-""				\		setlocal omnifunc=syntaxcomplete#Complete |
-""				\	endif
-""
-""	function! SuperCleverTab()
-""		if strpart(getline('.'), 0, col('.') - 1) =~ '^\s*$'
-""			return "\<Tab>"
-""		else
-""			if &omnifunc != ''
-""				return "\<C-X>\<C-O>"
-""			elseif &dictionary != ''
-""				return "\<C-X>\<C-K>"
-""			else
-""				return "\<C-X>\<C-N>"
-""			endif
-""		endif
-""	endfunction
-""
-""	inoremap <Tab> <C-R>=SuperCleverTab()<cr>
-""endif
+call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
 set si
 filetype plugin indent on
 filetype plugin on
