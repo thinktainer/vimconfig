@@ -56,5 +56,6 @@ set termencoding=utf-8
 set statusline =%<%f\ %h%m%r%-14.([%l,%c]%V%)\ %P
 set statusline +=%{fugitive#statusline()}
 set tags=./tags;/
-set tags+=~/projects/cars/tags
+set ignorecase
+set smartcase
 

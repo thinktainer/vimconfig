@@ -22,3 +22,11 @@
 	path = bundle/tagbar
 	url = git://github.com/majutsushi/tagbar.git
 	ignore = dirty
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = git://github.com/ervandew/supertab.git
+	ignore = dirty
+[submodule "bundle/NERDTree"]
+	path = bundle/NERDTree
+	url = git://github.com/scrooloose/nerdtree.git
+	ignore = dirty
