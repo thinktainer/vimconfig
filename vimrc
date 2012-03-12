@@ -44,7 +44,6 @@ unlet s:cpo_save
 set background=dark
 set backspace=indent,eol,start
 set fileencodings=ucs-bom,utf-8,default,latin1
-set guifont=Bitstream_Vera_Sans_Mono:h10
 set guitablabel=%M%t
 set helplang=en
 set langmenu=none
@@ -58,4 +57,7 @@ set statusline +=%{fugitive#statusline()}
 set tags=./tags;/
 set ignorecase
 set smartcase
+syntax on
+set hlsearch
+runtime! ftplugin/man.vim
 
