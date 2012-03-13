@@ -1,5 +1,4 @@
-call pathogen#helptags()
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 set si
 filetype plugin indent on
 filetype plugin on
@@ -54,10 +53,11 @@ set termencoding=utf-8
 " statusline
 set statusline =%<%f\ %h%m%r%-14.([%l,%c]%V%)\ %P
 set statusline +=%{fugitive#statusline()}
-set tags=./tags;/
+set tags=./tags,~/tags/includes
 set ignorecase
 set smartcase
 syntax on
 set hlsearch
 runtime! ftplugin/man.vim
+" ctags for cppcomplete:
 
