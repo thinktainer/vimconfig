@@ -1,4 +1,4 @@
-set gfn=Droid\ Sans\ Mono\ 9
+set gfn=Consolas:h9:cANSI
 set vb t_vb=
 set columns=192
 set lines=84
