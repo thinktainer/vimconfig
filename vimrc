@@ -58,4 +58,4 @@ set statusline +=%{fugitive#statusline()}
 set tags=./tags;/
 set ignorecase
 set smartcase
-
+syntax enable
