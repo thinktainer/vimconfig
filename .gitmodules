@@ -49,4 +49,8 @@
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
-  ignore = dirty
+  	ignore = dirty
+[submodule "bundle/ps1-syntax"]
+	path = bundle/ps1-syntax
+	url = https://github.com/PProvost/vim-ps1.git
+	ignore = dirty
