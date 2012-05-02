@@ -30,3 +30,27 @@
 	path = bundle/NERDTree
 	url = git://github.com/scrooloose/nerdtree.git
 	ignore = dirty
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+	ignore = dirty
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = git://github.com/vim-scripts/taglist.vim.git
+	ignore = dirty
+[submodule "bundle/buffet"]
+	path = bundle/buffet
+	url = git://github.com/vim-scripts/buffet.vim.git
+	ignore = dirty
+[submodule "bundle/omnicppcomplete"]
+	path = bundle/omnicppcomplete
+	url = git@github.com:mschinz/omnicppcomplete.git
+	ignore = dirty
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+  	ignore = dirty
+[submodule "bundle/ps1-syntax"]
+	path = bundle/ps1-syntax
+	url = https://github.com/PProvost/vim-ps1.git
+	ignore = dirty

@@ -12,3 +12,6 @@ Switch to the `~/.vim` directory, and fetch submodules:
 cd ~/.vim
 git submodule init
 git submodule update
+
+on MS Windows: New-Symlink ~/vimfiles ~/.vim
+

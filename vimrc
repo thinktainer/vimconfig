@@ -1,17 +1,27 @@
-call pathogen#helptags()
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 set si
+
+" disable bell!
+set noeb vb t_vb=
+
+
 filetype plugin indent on
 filetype plugin on
+set noexpandtab tabstop=4 shiftwidth=4 textwidth=0
+
 set omnifunc=syntaxcomplete#Complete
 set number
 set scrolloff=3
 set laststatus=2
 set nocompatible
-colorscheme railscasts 
+set hidden
+colorscheme desert 
+
 version 6.0
 if &cp | set nocp | endif
 let s:cpo_save=&cpo
+
+" Keyboard
 set cpo&vim
 imap <D-BS> 
 imap <M-BS> 
@@ -41,21 +51,25 @@ vmap <D-v> "-d"*P
 nmap <D-v> "*P
 let &cpo=s:cpo_save
 unlet s:cpo_save
+
 set background=dark
 set backspace=indent,eol,start
 set fileencodings=ucs-bom,utf-8,default,latin1
-set guifont=Bitstream_Vera_Sans_Mono:h10
 set guitablabel=%M%t
 set helplang=en
 set langmenu=none
 set mouse=a
 set printexpr=system('open\ -a\ Preview\ '.v:fname_in)\ +\ v:shell_error
 set termencoding=utf-8
+
 " vim: set ft=vim :
 " statusline
 set statusline =%<%f\ %h%m%r%-14.([%l,%c]%V%)\ %P
 set statusline +=%{fugitive#statusline()}
-set tags=./tags;/
 set ignorecase
 set smartcase
-syntax enable
+syntax on
+set hlsearch
+runtime! ftplugin/man.vim
+" ctags for cppcomplete:
+set tags=./tags,~/tags/common,~/tags/qttags
