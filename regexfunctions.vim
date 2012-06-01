@@ -1,5 +1,5 @@
 function CsprojToIIS(projectRoot)
-	let l:projects = { "\\AccountManagement\\AccountManagement.csproj" : "", "\\Application_Form\\ApplicationForm.csproj" : "", "\\BrokerArea\\BrokerArea.csproj" : "BrokerArea", "\\LMS\\LMS.csproj" : "", "\\LMS.MVC\\LMS.MVC.csproj" : "LMS.MVC", "\\UpdateDetails\\UpdateDetails.csproj" : "" }
+	let l:projects = { "\\AccountManagement\\AccountManagement.csproj" : "", "\\Application_Form\\Application_Form.csproj" : "", "\\BrokerArea\\BrokerArea.csproj" : "BrokerArea", "\\LMS\\LMS.csproj" : "", "\\LMS.MVC\\LMS.MVC.csproj" : "LMS.MVC", "\\UpdateDetails\\UpdateDetails.csproj" : "" }
 	for l:project in keys(l:projects)
 		let l:proj=a:projectRoot . l:project
 		exe ":edit " . proj
@@ -18,6 +18,6 @@ function IisTrue()
 endfunction
 
 function LogMessage()
-	:s /\s\{2}/\r/g
-	%s /^\n//g
+	:s /\s\{3}at/\r   at/g
+	%s /---/\r/ge
 endfunction
