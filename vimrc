@@ -71,6 +71,5 @@ set smartcase
 syntax on
 set hlsearch
 runtime! ftplugin/man.vim
-
 " ctags for cppcomplete:
 set tags=./tags,~/tags/common,~/tags/qttags
