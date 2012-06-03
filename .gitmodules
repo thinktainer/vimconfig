@@ -46,3 +46,8 @@
 	path = bundle/omnicppcomplete
 	url = git@github.com:mschinz/omnicppcomplete.git
 	ignore = dirty
+[submodule "bundle/autoclose"]
+	path = bundle/autoclose
+	url = git://github.com/Townk/vim-autoclose.git
+	ignore = dirty
+
