@@ -53,8 +53,10 @@ set printexpr=system('open\ -a\ Preview\ '.v:fname_in)\ +\ v:shell_error
 set termencoding=utf-8
 " vim: set ft=vim :
 " statusline
-set statusline =%<%f\ %h%m%r%-14.([%l,%c]%V%)\ %P
-set statusline +=%{fugitive#statusline()}
+set statusline =%f\ %h%m%r%-14.([%l,%c]%V%)\ %P
+if exists("*fugitive#statusline()") == 1
+	set statusline +=%{fugitive#statusline()}
+endif
 set ignorecase
 set smartcase
 syntax on
@@ -62,3 +64,5 @@ set hlsearch
 runtime! ftplugin/man.vim
 " ctags for cppcomplete:
 set tags=./tags,~/tags/common,~/tags/qttags
+set hidden
+
