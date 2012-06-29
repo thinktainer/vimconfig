@@ -21,3 +21,7 @@ function LogMessage()
 	:s /\s\{3}at/\r   at/g
 	%s /---/\r/ge
 endfunction
+
+function CardServiceMethod()
+	%s /\_.*\(CardServer.*ICardServiceContract.*)\)\_.*/\1/
+endfunction
