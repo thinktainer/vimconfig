@@ -58,3 +58,11 @@
 	path = bundle/ps1-syntax
 	url = https://github.com/PProvost/vim-ps1.git
 	ignore = dirty
+[submodule "bundle/vim-cucumber"]
+	path = bundle/vim-cucumber
+	url = https://github.com/tpope/vim-cucumber.git
+	ignore = dirty
+[submodule "bundle/vim-ruby"]
+	path = bundle/vim-ruby
+	url = git://github.com/vim-ruby/vim-ruby.git
+	ignore = dirty
