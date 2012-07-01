@@ -15,7 +15,7 @@ set scrolloff=3
 set laststatus=2
 set nocompatible
 set hidden
-colorscheme desert 
+colorscheme vividchalk 
 
 version 6.0
 if &cp | set nocp | endif
