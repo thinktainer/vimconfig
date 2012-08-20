@@ -74,7 +74,7 @@ syntax on
 set hlsearch
 runtime! ftplugin/man.vim
 " ctags for cppcomplete:
-set tags=./tags,../tags,~/Projects/Carstuning/tags,~/tags
+set tags=./tags;
 set hidden
 
 autocmd BufRead *_spec.rb syn keyword rubyRspec describe context it specify it_should_behave_like before after setup subject its shared_examples_for shared_context let

@@ -1,4 +1,4 @@
-set gfn=Bitstream\ Vera\ Sans\ Mono\ 8
+set gfn=Monaco:h9:cANSI
 set vb t_vb=
 set columns=192
 set lines=84
