@@ -15,7 +15,9 @@ set scrolloff=3
 set laststatus=2
 set nocompatible
 set hidden
-colorscheme vividchalk 
+
+set background=dark
+colorscheme solarized 
 
 version 6.0
 if &cp | set nocp | endif
@@ -52,7 +54,6 @@ nmap <D-v> "*P
 let &cpo=s:cpo_save
 unlet s:cpo_save
 
-set background=dark
 set backspace=indent,eol,start
 set fileencodings=ucs-bom,utf-8,default,latin1
 set guitablabel=%M%t
@@ -74,7 +75,7 @@ syntax on
 set hlsearch
 runtime! ftplugin/man.vim
 " ctags for cppcomplete:
-set tags=./tags,../tags,~/Projects/Carstuning/tags,~/tags
+set tags=./tags;/
 set hidden
 
 autocmd BufRead *_spec.rb syn keyword rubyRspec describe context it specify it_should_behave_like before after setup subject its shared_examples_for shared_context let
