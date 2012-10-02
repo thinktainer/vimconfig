@@ -25,3 +25,7 @@ endfunction
 function CardServiceMethod()
 	%s /\_.*\(CardServer.*ICardServiceContract.*)\)\_.*/\1/
 endfunction
+
+function ReplaceDomainUrl
+	%s /v\$Domain_Url_.{-}\//http:\/\/test-lb.memcapital.com\/LB-5754/c
+endfunction
