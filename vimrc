@@ -17,7 +17,7 @@ set nocompatible
 set hidden
 
 set background=dark
-colorscheme solarized 
+colorscheme vividchalk 
 
 version 6.0
 if &cp | set nocp | endif
@@ -75,7 +75,7 @@ syntax on
 set hlsearch
 runtime! ftplugin/man.vim
 " ctags for cppcomplete:
-set tags=./tags;/
+set tags=./tags;/;C:\DeployTools\tags
 set hidden
 
 autocmd BufRead *_spec.rb syn keyword rubyRspec describe context it specify it_should_behave_like before after setup subject its shared_examples_for shared_context let
