@@ -65,12 +65,11 @@ set termencoding=utf-8
 
 " vim: set ft=vim :
 " statusline
-set statusline =%f\ %h%m%r%-14.([%l,%c]%V%)\ %P
-if exists("*fugitive#statusline()") == 1
-	set statusline +=%{fugitive#statusline()}
-endif
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+
 set ignorecase
 set smartcase
+
 syntax on
 set hlsearch
 runtime! ftplugin/man.vim
