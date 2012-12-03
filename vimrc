@@ -17,7 +17,7 @@ set nocompatible
 set hidden
 
 set background=dark
-colorscheme vividchalk 
+colorscheme clarity
 
 version 6.0
 if &cp | set nocp | endif
