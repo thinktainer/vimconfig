@@ -17,7 +17,7 @@ set nocompatible
 set hidden
 
 set background=dark
-colorscheme vividchalk 
+colorscheme herald 
 
 version 6.0
 if &cp | set nocp | endif
@@ -65,17 +65,16 @@ set termencoding=utf-8
 
 " vim: set ft=vim :
 " statusline
-set statusline =%f\ %h%m%r%-14.([%l,%c]%V%)\ %P
-if exists("*fugitive#statusline()") == 1
-	set statusline +=%{fugitive#statusline()}
-endif
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+
 set ignorecase
 set smartcase
+
 syntax on
 set hlsearch
 runtime! ftplugin/man.vim
 " ctags for cppcomplete:
-set tags=./tags;/;C:\DeployTools\tags
+set tags=./tags;/;~/tags
 set hidden
 
 autocmd BufRead *_spec.rb syn keyword rubyRspec describe context it specify it_should_behave_like before after setup subject its shared_examples_for shared_context let
