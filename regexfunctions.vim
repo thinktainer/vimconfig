@@ -25,3 +25,10 @@ endfunction
 function CardServiceMethod()
 	%s /\_.*\(CardServer.*ICardServiceContract.*)\)\_.*/\1/
 endfunction
+
+function JiraFeature()
+	%s /^\(Feature:\?\)\s\+\(.*\)/{color:purple}*\1*{color} *\2*/
+	%s/I\s\+as.*/{color:green}\0{color}
+	%s/In\ order\ to.*/{color:#FF9900}\0{color}
+	%s/\(.*\(I as\|In order to\)\)\@!\(.*\)/{color:blue}\3{color}/
+endfunction
