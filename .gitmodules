@@ -70,4 +70,3 @@
 	path = bundle/vim-json
 	url = git://github.com/elzr/vim-json.git
 	ignore = dirty
-
