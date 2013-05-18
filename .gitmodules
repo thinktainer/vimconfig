@@ -74,3 +74,7 @@
 	path = bundle/vim-unimpaired
 	url = git://github.com/tpope/vim-unimpaired.git
 	ignore = dirty
+[submodule "bundle/vim-sensible"]
+	path = bundle/vim-sensible
+	url = git://github.com/tpope/vim-sensible.git
+	ignore = dirty
