@@ -78,3 +78,7 @@
 	path = bundle/vim-sensible
 	url = git://github.com/tpope/vim-sensible.git
 	ignore = dirty
+[submodule "bundle/vim-rbenv"]
+	path = bundle/vim-rbenv
+	url = git://github.com/tpope/vim-rbenv.git
+	ignore = dirty
