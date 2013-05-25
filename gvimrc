@@ -1,7 +1,7 @@
-set gfn=Liberation\ Mono\ 9
+set gfn=Droid\ Sans\ Mono\ 9
 set vb t_vb=
 set columns=192
 set lines=84
 set background=dark
-colorscheme distinguished
+colorscheme herald 
 
