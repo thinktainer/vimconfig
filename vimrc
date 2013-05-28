@@ -15,9 +15,10 @@ set scrolloff=3
 set laststatus=2
 set nocompatible
 set hidden
+set shellcmdflag=-ci
 
 set background=dark
-colorscheme distinguished 
+colorscheme herald 
 
 version 6.0
 if &cp | set nocp | endif
@@ -74,10 +75,11 @@ syntax on
 set hlsearch
 runtime! ftplugin/man.vim
 " ctags for cppcomplete:
-set tags=./tags;/;~/tags
+"set tags+=./tags;/;~/tags;
 set hidden
 
 autocmd BufRead *_spec.rb syn keyword rubyRspec describe context it specify it_should_behave_like before after setup subject its shared_examples_for shared_context let
 highlight def link rubyRspec Function
 
 let NERDTreeChDirMode=2
+
