@@ -2,6 +2,10 @@
 	path = pathogen
 	url = http://github.com/tpope/vim-pathogen.git
 	ignore = dirty
+[submodule "bundle/vim-bundler"]
+	path = bundle/vim-bundler
+	url = https://github.com/tpope/vim-bundler.git
+	ignore = dirty
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
