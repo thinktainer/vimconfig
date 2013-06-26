@@ -52,6 +52,9 @@ vmap <D-x> "*d
 vmap <D-c> "*y
 vmap <D-v> "-d"*P
 nmap <D-v> "*P
+noremap <C-tab> :tabnext<CR>
+noremap <C-S-tab> :tabprevious<CR>
+
 let &cpo=s:cpo_save
 unlet s:cpo_save
 
