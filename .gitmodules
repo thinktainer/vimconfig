@@ -86,3 +86,6 @@
 	path = bundle/vim-json
 	url = git://github.com/elzr/vim-json.git
 	ignore = dirty
+[submodule "bundle/vim-cache-dirs"]
+	path = bundle/vim-cache-dirs
+	url = git@github.com:mschinz/vim-cache-dirs.git
