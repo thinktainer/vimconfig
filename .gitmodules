@@ -86,3 +86,6 @@
 	path = bundle/vim-rbenv
 	url = git://github.com/tpope/vim-rbenv.git
 	ignore = dirty
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/tpope/vim-markdown.git
