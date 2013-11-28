@@ -86,3 +86,6 @@
 	path = bundle/vim-json
 	url = git://github.com/elzr/vim-json.git
 	ignore = dirty
+[submodule "bundle/fsharp"]
+	path = bundle/fsharp
+	url = git://github.com/kongo2002/fsharp-vim.git
