@@ -1,4 +1,4 @@
-set gfn=Inconsolata:h14
+set gfn=Inconsolata\ for\ Powerline:h14
 set vb t_vb=
 set columns=192
 set lines=84
