@@ -91,3 +91,6 @@
 	url = git@github.com:mschinz/vim-cache-dirs.git
 	ignore = dirty
 
+[submodule "bundle/fsharp"]
+	path = bundle/fsharp
+	url = git://github.com/kongo2002/fsharp-vim.git

@@ -1,7 +1,6 @@
-set gfn=Inconsolata\ Medium\ 11
+set gfn=Droid\ Sans\ Mono\ 9
 set vb t_vb=
 set columns=192
 set lines=84
 set background=dark
-colorscheme base16-default
-
+colorscheme distinguished
