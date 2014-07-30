@@ -17,7 +17,7 @@ set nocompatible
 set hidden
 set shellcmdflag=-ci
 
-set background=light
+set background=dark
 colorscheme solarized 
 
 version 6.0
