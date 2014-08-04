@@ -33,7 +33,7 @@ set printexpr=system('open\ -a\ Preview\ '.v:fname_in)\ +\ v:shell_error
 set termencoding=utf-8
 
 " statusline
-set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l/%L,%c%V%)\ %{&syntax}\ %P
 
 set ignorecase
 set smartcase
