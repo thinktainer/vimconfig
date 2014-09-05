@@ -2,3 +2,5 @@
 *.swp
 autoload
 *.orig
+/viewdir/
+

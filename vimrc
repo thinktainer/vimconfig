@@ -1,4 +1,5 @@
 call pathogen#infect()
+call pathogen#helptags()
 set si
 
 " disable bell!
@@ -38,4 +39,5 @@ set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l/%L,%c%V%)\ %{&synt
 set ignorecase
 set smartcase
 let NERDTreeChDirMode=2
+set viewdir=%HOME%\vimfiles\viewdir
 
