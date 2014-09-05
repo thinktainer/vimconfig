@@ -104,3 +104,6 @@
 [submodule "bundle/apiblueprint"]
 	path = bundle/apiblueprint
 	url = git@github.com:kylef/apiblueprint.vim.git
+[submodule "bundles/tabular"]
+	path = bundles/tabular
+	url = git://github.com/godlygeek/tabular.git
