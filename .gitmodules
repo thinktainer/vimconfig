@@ -10,17 +10,9 @@
 	path = bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
 	ignore = dirty
-[submodule "bundle/vim-rails"]
-	path = bundle/vim-rails
-	url = git://github.com/tpope/vim-rails.git
-	ignore = dirty
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git
-	ignore = dirty
-[submodule "bundle/vim-ragtag"]
-	path = bundle/vim-ragtag
-	url = git://github.com/tpope/vim-ragtag.git
 	ignore = dirty
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
@@ -62,14 +54,6 @@
 	path = bundle/ps1-syntax
 	url = https://github.com/PProvost/vim-ps1.git
 	ignore = dirty
-[submodule "bundle/vim-cucumber"]
-	path = bundle/vim-cucumber
-	url = https://github.com/tpope/vim-cucumber.git
-	ignore = dirty
-[submodule "bundle/vim-ruby"]
-	path = bundle/vim-ruby
-	url = git://github.com/vim-ruby/vim-ruby.git
-	ignore = dirty
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
@@ -81,10 +65,6 @@
 [submodule "bundle/vim-sensible"]
 	path = bundle/vim-sensible
 	url = git://github.com/tpope/vim-sensible.git
-	ignore = dirty
-[submodule "bundle/vim-rbenv"]
-	path = bundle/vim-rbenv
-	url = git://github.com/tpope/vim-rbenv.git
 	ignore = dirty
 [submodule "bundle/vim-cache-dirs"]
 	path = bundle/vim-cache-dirs
