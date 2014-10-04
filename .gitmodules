@@ -116,3 +116,9 @@
 	path = bundle/elixir
 	url = git@github.com:elixir-lang/vim-elixir.git
 
+[submodule "bundle/vim-puppet"]
+	path = bundle/vim-puppet
+	url = git@github.com:rodjek/vim-puppet.git
+[submodule "bundle/vim-cache-dirs"]
+	path = bundle/vim-cache-dirs
+	url = git@github.com:thinktainer/vim-cache-dirs.git
