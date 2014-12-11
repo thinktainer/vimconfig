@@ -10,10 +10,6 @@
 	path = bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
 	ignore = dirty
-[submodule "bundle/vim-rails"]
-	path = bundle/vim-rails
-	url = git://github.com/tpope/vim-rails.git
-	ignore = dirty
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git
@@ -62,10 +58,6 @@
 	path = bundle/vim-cucumber
 	url = https://github.com/tpope/vim-cucumber.git
 	ignore = dirty
-[submodule "bundle/vim-ruby"]
-	path = bundle/vim-ruby
-	url = git://github.com/vim-ruby/vim-ruby.git
-	ignore = dirty
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
@@ -78,10 +70,6 @@
 	path = bundle/vim-sensible
 	url = git://github.com/tpope/vim-sensible.git
 	ignore = dirty
-[submodule "bundle/vim-rbenv"]
-	path = bundle/vim-rbenv
-	url = git://github.com/tpope/vim-rbenv.git
-	ignore = dirty
 [submodule "bundle/vim-json"]
 	path = bundle/vim-json
 	url = git://github.com/elzr/vim-json.git
@@ -89,21 +77,29 @@
 [submodule "bundle/fsharp"]
 	path = bundle/fsharp
 	url = git://github.com/kongo2002/fsharp-vim.git
+	ignore = dirty
 [submodule "bundle/vim-cache-dirs"]
 	path = bundle/vim-cache-dirs
 	url = git@github.com:mschinz/vim-cache-dirs.git
+	ignore = dirty
 [submodule "bundle/gist-vim"]
 	path = bundle/gist-vim
 	url = https://github.com/mattn/gist-vim.git
+	ignore = dirty
 [submodule "bundle/webapi-vim"]
 	path = bundle/webapi-vim
 	url = https://github.com/mattn/webapi-vim.git
+	ignore = dirty
 [submodule "bundle/typescript-vim"]
 	path = bundle/typescript-vim
 	url = git@github.com:mschinz/typescript-vim.git
+	ignore = dirty
 [submodule "bundle/apiblueprint"]
 	path = bundle/apiblueprint
 	url = git@github.com:kylef/apiblueprint.vim.git
+	ignore = dirty
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = git://github.com/godlygeek/tabular.git
+	ignore = dirty
+
