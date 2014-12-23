@@ -15,7 +15,7 @@ set scrolloff=3
 set laststatus=2
 set nocompatible
 set hidden
-set shellcmdflag=-ci
+set shellcmdflag=-c
 
 set background=dark
 colorscheme solarized 

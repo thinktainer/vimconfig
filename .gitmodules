@@ -134,3 +134,9 @@
 [submodule "bundle/vim-fireplace"]
 	path = bundle/vim-fireplace
 	url = git://github.com/tpope/vim-fireplace.git
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = git@github.com:godlygeek/tabular.git
+[submodule "bundle/apiblueprint.vim"]
+	path = bundle/apiblueprint.vim
+	url = git@github.com:kylef/apiblueprint.vim.git
