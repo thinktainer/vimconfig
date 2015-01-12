@@ -1,3 +1,4 @@
+runtime pathogen/autoload/pathogen.vim
 call pathogen#infect()
 call pathogen#helptags()
 set si
