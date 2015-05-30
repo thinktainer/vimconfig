@@ -115,16 +115,12 @@
 [submodule "bundle/elixir"]
 	path = bundle/elixir
 	url = git@github.com:elixir-lang/vim-elixir.git
-
 [submodule "bundle/vim-puppet"]
 	path = bundle/vim-puppet
 	url = git@github.com:rodjek/vim-puppet.git
 [submodule "bundle/vim-cache-dirs"]
 	path = bundle/vim-cache-dirs
 	url = git@github.com:thinktainer/vim-cache-dirs.git
-[submodule "bundle/vim-leiningen"]
-	path = bundle/vim-leiningen
-	url = git://github.com/tpope/vim-leiningen.git
 [submodule "bundle/vim-projectionist"]
 	path = bundle/vim-projectionist
 	url = git://github.com/tpope/vim-projectionist.git
