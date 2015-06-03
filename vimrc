@@ -81,5 +81,11 @@ set hidden
 autocmd BufRead *_spec.rb syn keyword rubyRspec describe context it specify it_should_behave_like before after setup subject its shared_examples_for shared_context let
 highlight def link rubyRspec Function
 
+au FileType javascript setl sw=2 et
+
 let NERDTreeChDirMode=2
+let g:flow#autoclose=1
+let g:syntastic_javascript_checkers = ['eslint']
+au BufRead,BufNewFile *.json set filetype=json
+let g:syntastic_json_checkers = ['jsonlint']
 

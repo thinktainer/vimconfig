@@ -109,42 +109,69 @@
 [submodule "bundle/vimerl"]
 	path = bundle/vimerl
 	url = https://github.com/jimenezrick/vimerl
+	ignore = dirty
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = https://github.com/kien/ctrlp.vim
+	ignore = dirty
 [submodule "bundle/elixir"]
 	path = bundle/elixir
 	url = git@github.com:elixir-lang/vim-elixir.git
+	ignore = dirty
 [submodule "bundle/vim-puppet"]
 	path = bundle/vim-puppet
 	url = git@github.com:rodjek/vim-puppet.git
+	ignore = dirty
 [submodule "bundle/vim-cache-dirs"]
 	path = bundle/vim-cache-dirs
 	url = git@github.com:thinktainer/vim-cache-dirs.git
+	ignore = dirty
 [submodule "bundle/vim-projectionist"]
 	path = bundle/vim-projectionist
 	url = git://github.com/tpope/vim-projectionist.git
+	ignore = dirty
 [submodule "bundle/vim-dispatch"]
 	path = bundle/vim-dispatch
 	url = git://github.com/tpope/vim-dispatch.git
+	ignore = dirty
 [submodule "bundle/vim-fireplace"]
 	path = bundle/vim-fireplace
 	url = git://github.com/tpope/vim-fireplace.git
+	ignore = dirty
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = git@github.com:godlygeek/tabular.git
+	ignore = dirty
 [submodule "bundle/apiblueprint.vim"]
 	path = bundle/apiblueprint.vim
 	url = git@github.com:kylef/apiblueprint.vim.git
+	ignore = dirty
 [submodule "bundle/salt-vim"]
 	path = bundle/salt-vim
 	url = git@github.com:saltstack/salt-vim.git
+	ignore = dirty
 [submodule "bundle/vim-leiningen"]
 	path = bundle/vim-leiningen
 	url = git@github.com:tpope/vim-leiningen.git
+	ignore = dirty
 [submodule "bundle/vim-javascript"]
 	path = bundle/vim-javascript
 	url = git@github.com:pangloss/vim-javascript.git
+	ignore = dirty
 [submodule "bundle/vim-flow"]
 	path = bundle/vim-flow
 	url = git@github.com:facebook/vim-flow.git
+	ignore = dirty
+[submodule "bundle/vim-jsx"]
+	path = bundle/vim-jsx
+	url = git@github.com:mxw/vim-jsx.git
+	ignore = dirty
+[submodule "bundle/tern-for-vim"]
+	path = bundle/tern-for-vim
+	url = git@github.com:marijnh/tern_for_vim.git
+	ignore = dirty
+[submodule "bundle/vim-json"]
+	path = bundle/vim-json
+	url = git@github.com:elzr/vim-json.git
+	ignore = dirty
+
