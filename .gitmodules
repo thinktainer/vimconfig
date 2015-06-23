@@ -38,10 +38,6 @@
 	path = bundle/buffet
 	url = git://github.com/vim-scripts/buffet.vim.git
 	ignore = dirty
-[submodule "bundle/omnicppcomplete"]
-	path = bundle/omnicppcomplete
-	url = git@github.com:mschinz/omnicppcomplete.git
-	ignore = dirty
 [submodule "bundle/autoclose"]
 	path = bundle/autoclose
 	url = https://github.com/Townk/vim-autoclose.git

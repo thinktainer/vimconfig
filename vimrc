@@ -43,4 +43,4 @@ set viewdir=%HOME%\vimfiles\viewdir
 
 au FileType fsharp let g:fsharp_xbuild_path = 'C:\Program Files (x86)\Mono\bin\'
 au FileType fsharp let g:fsharp_interactive_bin = 'C:\Program Files (x86)\Mono\bin\'
-
+au FileType fsharp let g:SuperTabContextDefaultCompletionType = '<C-X><C-O>'
