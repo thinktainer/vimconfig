@@ -74,10 +74,6 @@
 	path = bundle/vim-json
 	url = git://github.com/elzr/vim-json.git
 	ignore = dirty
-[submodule "bundle/fsharp"]
-	path = bundle/fsharp
-	url = git://github.com/kongo2002/fsharp-vim.git
-	ignore = dirty
 [submodule "bundle/vim-cache-dirs"]
 	path = bundle/vim-cache-dirs
 	url = git@github.com:mschinz/vim-cache-dirs.git
@@ -102,7 +98,8 @@
 	path = bundle/tabular
 	url = git://github.com/godlygeek/tabular.git
 	ignore = dirty
-
 [submodule "bundle/vim-fsharp"]
 	path = bundle/vim-fsharp
 	url = git@github.com:fsharp/vim-fsharp.git
+	ignore = dirty
+
