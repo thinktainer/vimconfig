@@ -41,3 +41,6 @@ set smartcase
 let NERDTreeChDirMode=2
 set viewdir=%HOME%\vimfiles\viewdir
 
+au FileType fsharp let g:fsharp_xbuild_path = 'C:\Program Files (x86)\Mono\bin\xbuild.bat'
+au FileType fsharp let g:fsharp_interactive_bin = 'C:\Program Files (x86)\Mono\bin\fsharpi.bat'
+

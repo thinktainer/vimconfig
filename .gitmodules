@@ -103,3 +103,6 @@
 	url = git://github.com/godlygeek/tabular.git
 	ignore = dirty
 
+[submodule "bundle/vim-fsharp"]
+	path = bundle/vim-fsharp
+	url = git@github.com:fsharp/vim-fsharp.git
