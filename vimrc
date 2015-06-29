@@ -67,7 +67,7 @@ set termencoding=utf-8
 " vim: set ft=vim :
 " statusline
 "set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
-set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim/
+"set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim/
 set ignorecase
 set smartcase
 
