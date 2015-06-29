@@ -167,3 +167,9 @@
 	url = git@github.com:elzr/vim-json.git
 	ignore = dirty
 
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = git@github.com:bling/vim-airline.git
+[submodule "bundle/tmuxline"]
+	path = bundle/tmuxline
+	url = git@github.com:edkolev/tmuxline.vim.git
