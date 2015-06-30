@@ -10,10 +10,6 @@
 	path = bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
 	ignore = dirty
-[submodule "bundle/vim-rails"]
-	path = bundle/vim-rails
-	url = git://github.com/tpope/vim-rails.git
-	ignore = dirty
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git
@@ -58,17 +54,9 @@
 	path = bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
   	ignore = dirty
-[submodule "bundle/ps1-syntax"]
-	path = bundle/ps1-syntax
-	url = https://github.com/PProvost/vim-ps1.git
-	ignore = dirty
 [submodule "bundle/vim-cucumber"]
 	path = bundle/vim-cucumber
 	url = https://github.com/tpope/vim-cucumber.git
-	ignore = dirty
-[submodule "bundle/vim-ruby"]
-	path = bundle/vim-ruby
-	url = git://github.com/vim-ruby/vim-ruby.git
 	ignore = dirty
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
@@ -90,10 +78,6 @@
 	path = bundle/vim-markdown
 	url = https://github.com/tpope/vim-markdown.git
 	ignore = dirty
-[submodule "bundle/webapi-vim"]
-	path = bundle/webapi-vim
-	url = https://github.com/mattn/webapi-vim.git
-	ignore = dirty
 [submodule "bundle/gist-vim"]
 	path = bundle/gist-vim
 	url = https://github.com/mattn/gist-vim.git
@@ -102,21 +86,9 @@
 	path = bundle/tmux-config
 	url = git://github.com/pivotal/tmux-config.git
 	ignore = dirty
-[submodule "bundle/vimerl"]
-	path = bundle/vimerl
-	url = https://github.com/jimenezrick/vimerl
-	ignore = dirty
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = https://github.com/kien/ctrlp.vim
-	ignore = dirty
-[submodule "bundle/elixir"]
-	path = bundle/elixir
-	url = git@github.com:elixir-lang/vim-elixir.git
-	ignore = dirty
-[submodule "bundle/vim-puppet"]
-	path = bundle/vim-puppet
-	url = git@github.com:rodjek/vim-puppet.git
 	ignore = dirty
 [submodule "bundle/vim-cache-dirs"]
 	path = bundle/vim-cache-dirs
@@ -145,10 +117,6 @@
 [submodule "bundle/salt-vim"]
 	path = bundle/salt-vim
 	url = git@github.com:saltstack/salt-vim.git
-	ignore = dirty
-[submodule "bundle/vim-leiningen"]
-	path = bundle/vim-leiningen
-	url = git@github.com:tpope/vim-leiningen.git
 	ignore = dirty
 [submodule "bundle/vim-javascript"]
 	path = bundle/vim-javascript
