@@ -1,3 +1,4 @@
+runtime pathogen/autoload/pathogen.vim
 call pathogen#infect()
 set si
 
@@ -17,8 +18,8 @@ set nocompatible
 set hidden
 set shellcmdflag=-c
 
-set background=light
-colorscheme solarized 
+set background=dark
+colorscheme base16-bright 
 
 version 6.0
 if &cp | set nocp | endif
@@ -89,5 +90,6 @@ let g:syntastic_javascript_checkers = ['eslint']
 au BufRead,BufNewFile *.json set filetype=json
 let g:syntastic_json_checkers = ['jsonlint']
 
-let g:airline_powerline_fonts=1
+let g:airline_powerline_fonts=0
 let g:airline_theme='laederon'
+
