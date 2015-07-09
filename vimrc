@@ -91,4 +91,7 @@ let g:syntastic_json_checkers = ['jsonlint']
 
 let g:airline_powerline_fonts=1
 let g:airline_theme='laederon'
+"
+"editorconfig
+let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
 
