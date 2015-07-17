@@ -166,13 +166,20 @@
 	path = bundle/vim-json
 	url = git@github.com:elzr/vim-json.git
 	ignore = dirty
-
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = git@github.com:bling/vim-airline.git
+	ignore = dirty
 [submodule "bundle/tmuxline"]
 	path = bundle/tmuxline
 	url = git@github.com:edkolev/tmuxline.vim.git
+	ignore = dirty
 [submodule "bundle/editorconfig-vim"]
 	path = bundle/editorconfig-vim
 	url = git@github.com:editorconfig/editorconfig-vim.git
+	ignore = dirty
+[submodule "bundle/vim-jinja"]
+	path = bundle/vim-jinja
+	url = git@github.com:lepture/vim-jinja.git
+	ignore = dirty
+
