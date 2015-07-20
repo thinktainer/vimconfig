@@ -3,4 +3,4 @@ set vb t_vb=
 set columns=192
 set lines=84
 set background=dark
-colorscheme distinguished
+colorscheme base16-mocha
