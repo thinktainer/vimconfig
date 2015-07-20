@@ -42,10 +42,6 @@
 	path = bundle/buffet
 	url = git@github.com:vim-scripts/buffet.vim.git
 	ignore = dirty
-[submodule "bundle/omnicppcomplete"]
-	path = bundle/omnicppcomplete
-	url = git@github.com:mschinz/omnicppcomplete.git
-	ignore = dirty
 [submodule "bundle/autoclose"]
 	path = bundle/autoclose
 	url = git@github.com:Townk/vim-autoclose.git
@@ -54,10 +50,6 @@
 	path = bundle/nerdcommenter
 	url = git@github.com:scrooloose/nerdcommenter.git
   	ignore = dirty
-[submodule "bundle/ps1-syntax"]
-	path = bundle/ps1-syntax
-	url = git@github.com:PProvost/vim-ps1.git
-	ignore = dirty
 [submodule "bundle/vim-cucumber"]
 	path = bundle/vim-cucumber
 	url = git@github.com:tpope/vim-cucumber.git
@@ -78,7 +70,6 @@
 	path = bundle/vim-cache-dirs
 	url = git@github.com:mschinz/vim-cache-dirs.git
 	ignore = dirty
-[submodule "bundle/fsharp"]
-	path = bundle/fsharp
-	url = git@github.com:kongo2002/fsharp-vim.git
-	ignore = dirty
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = git@github.com:bling/vim-airline.git
