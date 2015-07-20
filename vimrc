@@ -92,3 +92,6 @@ let g:ref_cache_dir = expand($TMP . '/vim_ref_cache/')
 nno <leader>K :<C-u>Unite ref/erlang
             \ -vertical -default-action=split<CR>
 
+" vim-erlang-runtime
+set runtimepath^=~/.vim/bundle/vim-erlang-runtime/
+

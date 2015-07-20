@@ -90,3 +90,19 @@
 	path = bundle/vim-erlang-runtime
 	url = git@github.com:vim-erlang/vim-erlang-runtime.git
 	ignore = dirty
+[submodule "bundle/vim-erlang-compiler"]
+	path = bundle/vim-erlang-compiler
+	url = git@github.com:vim-erlang/vim-erlang-compiler.git
+	ignore = dirty
+[submodule "bundle/vim-erlang-tags"]
+	path = bundle/vim-erlang-tags
+	url = git@github.com:vim-erlang/vim-erlang-tags.git
+	ignore = dirty
+[submodule "bundle/vim-erlang-omnicomplete"]
+	path = bundle/vim-erlang-omnicomplete
+	url = git@github.com:vim-erlang/vim-erlang-omnicomplete.git
+	ignore = dirty
+[submodule "bundle/erlang-motions-vim"]
+	path = bundle/erlang-motions-vim
+	url = git@github.com:edkolev/erlang-motions.vim.git
+	ignore = dirty
