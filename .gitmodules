@@ -73,3 +73,14 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = git@github.com:bling/vim-airline.git
+	ignore = dirty
+[submodule "bundle/tmuxline-vim"]
+	path = bundle/tmuxline-vim
+	url = git@github.com:edkolev/tmuxline.vim.git
+	ignore = dirty
+[submodule "bundle/unite-vim"]
+	path = bundle/unite-vim
+	url = git@github.com:Shougo/unite.vim.git
+[submodule "bundle/vim-ref"]
+	path = bundle/vim-ref
+	url = git@github.com:thinca/vim-ref.git
