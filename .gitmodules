@@ -81,6 +81,12 @@
 [submodule "bundle/unite-vim"]
 	path = bundle/unite-vim
 	url = git@github.com:Shougo/unite.vim.git
+	ignore = dirty
 [submodule "bundle/vim-ref"]
 	path = bundle/vim-ref
 	url = git@github.com:thinca/vim-ref.git
+	ignore = dirty
+[submodule "bundle/vim-erlang-runtime"]
+	path = bundle/vim-erlang-runtime
+	url = git@github.com:vim-erlang/vim-erlang-runtime.git
+	ignore = dirty
