@@ -34,10 +34,6 @@
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
 	ignore = dirty
-[submodule "bundle/buffet"]
-	path = bundle/buffet
-	url = git://github.com/vim-scripts/buffet.vim.git
-	ignore = dirty
 [submodule "bundle/autoclose"]
 	path = bundle/autoclose
 	url = https://github.com/Townk/vim-autoclose.git
