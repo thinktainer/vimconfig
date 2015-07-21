@@ -10,7 +10,7 @@ filetype plugin indent on
 filetype plugin on
 
 
-set omnifunc=syntaxcomplete#Complete
+"set omnifunc=syntaxcomplete#Complete
 set number
 set scrolloff=3
 set laststatus=2
@@ -43,4 +43,5 @@ set viewdir=%HOME%\vimfiles\viewdir
 
 au FileType fsharp let g:fsharp_xbuild_path = 'C:\Program Files (x86)\Mono\bin\'
 au FileType fsharp let g:fsharp_interactive_bin = 'C:\Program Files (x86)\Mono\bin\'
-au FileType fsharp let g:SuperTabContextDefaultCompletionType = '<C-X><C-O>'
+au FileType fsharp let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
+
