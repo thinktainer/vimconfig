@@ -85,12 +85,23 @@ let NERDTreeChDirMode=2
 let g:airline_powerline_fonts=1
 let g:airline_theme='laederon'
 
+" leader
+let mapleader=','
+
+" unite
+nnoremap <leader>f :<C-u>Unite -start-insert file<CR>
+call unite#filters#matcher_default#use(['matcher_fuzzy'])
+nnoremap <leader>r :<C-u>Unite -start-insert file_rec<CR>
+let g:unite_source_history_yank_enable = 1
+nnoremap <leader>y :<C-u>Unite history/yank<CR>
+nnoremap <silent> <leader>b :<C-u>Unite buffer bookmark<CR>
 
 " vim-ref
 
 let g:ref_use_vimproc = 1
 let g:ref_open = 'split'
 let g:ref_cache_dir = expand($TMP . '/vim_ref_cache/')
+
 nno <leader>K :<C-u>Unite ref/erlang
             \ -vertical -default-action=split<CR>
 
