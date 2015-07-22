@@ -82,3 +82,27 @@
 	path = bundle/fsharp
 	url = git@github.com:kongo2002/fsharp-vim.git
 	ignore = dirty
+[submodule "bundle/tmuxline-vim"]
+	path = bundle/tmuxline-vim
+	url = git@github.com:edkolev/tmuxline.vim.git
+	ignore = dirty
+[submodule "bundle/promptline-vim"]
+	path = bundle/promptline-vim
+	url = git@github.com:edkolev/promptline.vim.git
+	ignore = dirty
+[submodule "bundle/tslime-vim"]
+	path = bundle/tslime-vim
+	url = git@github.com:sjl/tslime.vim.git
+	ignore = dirty
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = git@github.com:bling/vim-airline.git
+	ignore = dirty
+[submodule "bundle/unite-vim"]
+	path = bundle/unite-vim
+	url = git@github.com:Shougo/unite.vim.git
+	ignore = dirty
+[submodule "bundle/vim-ref"]
+	path = bundle/vim-ref
+	url = git@github.com:thinca/vim-ref.git
+	ignore = dirty
