@@ -82,3 +82,7 @@ set hidden
 
 let NERDTreeChDirMode=2
 
+" airline
+let g:airline_powerline_fonts = 1
+
+let g:airline_theme='laederon'
