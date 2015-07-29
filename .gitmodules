@@ -94,3 +94,7 @@
 	path = bundle/vim-ref
 	url = git@github.com:thinca/vim-ref.git
 	ignore = dirty
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = git@github.com:godlygeek/tabular.git
+	ignore = dirty
