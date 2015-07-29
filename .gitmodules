@@ -78,6 +78,14 @@
 	path = bundle/tmuxline-vim
 	url = git@github.com:edkolev/tmuxline.vim.git
 	ignore = dirty
+[submodule "bundle/promptline-vim"]
+	path = bundle/promptline-vim
+	url = git@github.com:edkolev/promptline.vim.git
+	ignore = dirty
+[submodule "bundle/tslime-vim"]
+	path = bundle/tslime-vim
+	url = git@github.com:sjl/tslime.vim.git
+	ignore = dirty
 [submodule "bundle/unite-vim"]
 	path = bundle/unite-vim
 	url = git@github.com:Shougo/unite.vim.git
@@ -106,11 +114,7 @@
 	path = bundle/erlang-motions-vim
 	url = git@github.com:edkolev/erlang-motions.vim.git
 	ignore = dirty
-[submodule "bundle/promptline-vim"]
-	path = bundle/promptline-vim
-	url = git@github.com:edkolev/promptline.vim.git
-	ignore = dirty
-[submodule "bundle/tslime-vim"]
-	path = bundle/tslime-vim
-	url = git@github.com:sjl/tslime.vim.git
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = git@github.com:godlygeek/tabular.git
 	ignore = dirty
