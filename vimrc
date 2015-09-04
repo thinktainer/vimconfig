@@ -64,10 +64,6 @@ set mouse=a
 set printexpr=system('open\ -a\ Preview\ '.v:fname_in)\ +\ v:shell_error
 set termencoding=utf-8
 
-" vim: set ft=vim :
-" statusline
-"set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
-"set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim/
 set ignorecase
 set smartcase
 
@@ -78,20 +74,27 @@ runtime! ftplugin/man.vim
 "set tags+=./tags;/;~/tags;
 set hidden
 
+" rubyspec
 autocmd BufRead *_spec.rb syn keyword rubyRspec describe context it specify it_should_behave_like before after setup subject its shared_examples_for shared_context let
 highlight def link rubyRspec Function
 
-au FileType javascript setl sw=2 et
-
 let NERDTreeChDirMode=2
+
+" javascript
 let g:flow#autoclose=1
+au FileType javascript setl sw=2 et
 let g:syntastic_javascript_checkers = ['eslint']
 au BufRead,BufNewFile *.json set filetype=json
 let g:syntastic_json_checkers = ['jsonlint']
 
+" erlang
+au FileType erlang set sw=2 ts=2 et
+
+" airline
 let g:airline_powerline_fonts=1
 let g:airline_theme='laederon'
 "
 "editorconfig
 let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
 let g:EditorConfig_exec_path = '/usr/local/bin/editorconfig'
+
