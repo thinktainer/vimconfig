@@ -98,3 +98,6 @@
 	path = bundle/tabular
 	url = git@github.com:godlygeek/tabular.git
 	ignore = dirty
+[submodule "bundle/vim-fireplace"]
+	path = bundle/vim-fireplace
+	url = git@github.com:tpope/vim-fireplace.git
