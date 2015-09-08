@@ -110,3 +110,9 @@
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
 	url = git@github.com:tpope/vim-repeat.git
+[submodule "bundle/vim-salve"]
+	path = bundle/vim-salve
+	url = git@github.com:tpope/vim-salve.git
+[submodule "bundle/vim-dispatch"]
+	path = bundle/vim-dispatch
+	url = git@github.com:tpope/vim-dispatch.git
