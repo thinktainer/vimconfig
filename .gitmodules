@@ -101,18 +101,24 @@
 [submodule "bundle/vim-fireplace"]
 	path = bundle/vim-fireplace
 	url = git@github.com:tpope/vim-fireplace.git
+	ignore = dirty
 [submodule "bundle/vim-sexp"]
 	path = bundle/vim-sexp
 	url = git@github.com:guns/vim-sexp.git
+	ignore = dirty
 [submodule "bundle/vim-sexp-mappings-for-regular-people"]
 	path = bundle/vim-sexp-mappings-for-regular-people
 	url = git@github.com:tpope/vim-sexp-mappings-for-regular-people.git
+	ignore = dirty
 [submodule "bundle/vim-repeat"]
 	path = bundle/vim-repeat
 	url = git@github.com:tpope/vim-repeat.git
+	ignore = dirty
 [submodule "bundle/vim-salve"]
 	path = bundle/vim-salve
 	url = git@github.com:tpope/vim-salve.git
+	ignore = dirty
 [submodule "bundle/vim-dispatch"]
 	path = bundle/vim-dispatch
 	url = git@github.com:tpope/vim-dispatch.git
+	ignore = dirty
