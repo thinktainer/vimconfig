@@ -3,3 +3,4 @@
 autoload
 *.orig
 /viewdir/
+.DS_Store
