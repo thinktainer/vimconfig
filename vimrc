@@ -18,7 +18,7 @@ set hidden
 set shellcmdflag=-c
 
 set background=light
-colorscheme solarized 
+colorscheme vividchalk 
 
 version 6.0
 if &cp | set nocp | endif
@@ -80,7 +80,8 @@ highlight def link rubyRspec Function
 
 " NERDTree
 let NERDTreeChDirMode=2
-  let NERDTreeIgnore=['\.beam$', '\~$']
+let NERDTreeIgnore=['\.beam$', '\~$']
+nnoremap <Leader>f :NERDTreeFind<ENTER><C-w><C-p>
 
 " javascript
 let g:flow#autoclose=1
@@ -99,4 +100,7 @@ let g:airline_theme='laederon'
 "editorconfig
 let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
 let g:EditorConfig_exec_path = '/usr/local/bin/editorconfig'
+
+"leader
+let mapleader=","
 

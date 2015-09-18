@@ -183,3 +183,6 @@
 	url = git@github.com:lepture/vim-jinja.git
 	ignore = dirty
 
+[submodule "bundle/tslime"]
+	path = bundle/tslime
+	url = git@github.com:sjl/tslime.vim.git
