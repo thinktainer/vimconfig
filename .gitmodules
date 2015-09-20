@@ -186,3 +186,6 @@
 [submodule "bundle/tslime"]
 	path = bundle/tslime
 	url = git@github.com:sjl/tslime.vim.git
+[submodule "bundle/tagman"]
+	path = bundle/tagman
+	url = git@github.com:thinktainer/tagman.vim.git
