@@ -189,3 +189,6 @@
 [submodule "bundle/tagman"]
 	path = bundle/tagman
 	url = git@github.com:thinktainer/tagman.vim.git
+[submodule "bundle/dash-vim"]
+	path = bundle/dash-vim
+	url = git@github.com:rizzatti/dash.vim.git
