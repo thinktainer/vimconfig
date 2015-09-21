@@ -102,8 +102,10 @@ au FileType erlang set sw=2 ts=2 et
 " airline
 let g:airline_powerline_fonts=1
 let g:airline_theme='laederon'
-"
+
 "editorconfig
 let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
 let g:EditorConfig_exec_path = '/usr/local/bin/editorconfig'
 
+"unite
+nnoremap <C-p> :Unite file_rec/async<cr>
