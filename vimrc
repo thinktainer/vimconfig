@@ -81,6 +81,9 @@ set hidden
 autocmd BufRead *_spec.rb syn keyword rubyRspec describe context it specify it_should_behave_like before after setup subject its shared_examples_for shared_context let
 highlight def link rubyRspec Function
 
+" html
+au FileType html set sw=2 ts=2 et
+
 " NERDTree
 let NERDTreeChDirMode=2
 let NERDTreeIgnore=['\.beam$', '\~$']
