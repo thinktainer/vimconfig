@@ -94,6 +94,7 @@ let g:flow#autoclose=1
 au FileType javascript setl sw=2 et
 let g:syntastic_javascript_checkers = ['eslint']
 au BufRead,BufNewFile *.json set filetype=json
+au FileType json setl sw=2 ts=2 et
 let g:syntastic_json_checkers = ['jsonlint']
 
 " erlang
@@ -112,3 +113,4 @@ nnoremap <C-p> :Unite file_rec/async<cr>
 nnoremap <space>/ :Unite grep:.<cr>
 nnoremap <space>s :Unite -quick-match buffer<cr>
 
+"json

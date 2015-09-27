@@ -194,3 +194,6 @@
 	path = bundle/unite-vim
 	url = git@github.com:Shougo/unite.vim.git
 	ignore = dirty
+[submodule "bundle/vison"]
+	path = bundle/vison
+	url = git@github.com:Quramy/vison.git
