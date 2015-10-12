@@ -197,3 +197,6 @@
 [submodule "bundle/vison"]
 	path = bundle/vison
 	url = git@github.com:Quramy/vison.git
+[submodule "bundle/base-16"]
+	path = bundle/base-16
+	url = git@github.com:chriskempson/base16-vim.git

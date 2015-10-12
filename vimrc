@@ -21,7 +21,7 @@ set hidden
 set shellcmdflag=-c
 
 set background=light
-colorscheme vividchalk 
+colorscheme base16-solarized 
 
 version 6.0
 if &cp | set nocp | endif
@@ -88,6 +88,7 @@ au FileType html set sw=2 ts=2 et
 let NERDTreeChDirMode=2
 let NERDTreeIgnore=['\.beam$', '\~$']
 nnoremap <Leader>f :NERDTreeFind<ENTER><C-w><C-p>
+nnoremap <Leader>n :NERDTreeToggle<Enter>
 
 " javascript
 let g:flow#autoclose=1
@@ -113,4 +114,8 @@ nnoremap <C-p> :Unite file_rec/async<cr>
 nnoremap <space>/ :Unite grep:.<cr>
 nnoremap <space>s :Unite -quick-match buffer<cr>
 
-"json
+"base16
+let base16colorspace=256  " Access colors present in 256 colorspace "
+
+let g:tslime_ensure_trailing_newlines=1
+
