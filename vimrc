@@ -1,14 +1,70 @@
 "leader
 let mapleader=","
 
-call pathogen#infect()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'scrooloose/nerdtree.git'
+Plugin 'kylef/apiblueprint.vim.git' 
+Plugin 'Townk/vim-autoclose.git' 
+Plugin 'chriskempson/base16-vim.git' 
+Plugin 'vim-scripts/buffet.vim.git' 
+Plugin 'rizzatti/dash.vim.git' 
+Plugin 'editorconfig/editorconfig-vim.git' 
+Plugin 'elixir-lang/vim-elixir.git' 
+Plugin 'tpope/vim-fugitive.git' 
+Plugin 'mattn/gist-vim.git' 
+Plugin 'scrooloose/nerdcommenter.git' 
+Plugin 'PProvost/vim-ps1.git' 
+Plugin 'saltstack/salt-vim.git' 
+Plugin 'ervandew/supertab.git' 
+Plugin 'scrooloose/syntastic.git' 
+Plugin 'godlygeek/tabular.git' 
+Plugin 'majutsushi/tagbar.git' 
+Plugin 'vim-scripts/taglist.vim.git' 
+Plugin 'thinktainer/tagman.vim.git' 
+Plugin 'pivotal/tmux-config.git' 
+Plugin 'edkolev/tmuxline.vim.git' 
+Plugin 'sjl/tslime.vim.git' 
+Plugin 'Shougo/unite.vim.git' 
+Plugin 'bling/vim-airline.git' 
+Plugin 'tpope/vim-bundler.git' 
+Plugin 'thinktainer/vim-cache-dirs.git' 
+Plugin 'altercation/vim-colors-solarized.git' 
+Plugin 'tpope/vim-cucumber.git' 
+Plugin 'tpope/vim-dispatch.git' 
+Plugin 'tpope/vim-fireplace.git' 
+Plugin 'facebook/vim-flow.git' 
+Plugin 'pangloss/vim-javascript.git' 
+Plugin 'lepture/vim-jinja.git' 
+Plugin 'elzr/vim-json.git' 
+Plugin 'mxw/vim-jsx.git' 
+Plugin 'tpope/vim-leiningen.git' 
+Plugin 'tpope/vim-markdown.git' 
+Plugin 'tpope/vim-projectionist.git' 
+Plugin 'rodjek/vim-puppet.git' 
+Plugin 'tpope/vim-ragtag.git' 
+Plugin 'tpope/vim-rails.git' 
+Plugin 'tpope/vim-rbenv.git' 
+Plugin 'vim-ruby/vim-ruby.git' 
+Plugin 'tpope/vim-sensible.git' 
+Plugin 'tpope/vim-surround.git' 
+Plugin 'tpope/vim-unimpaired.git' 
+Plugin 'jimenezrick/vimerl' 
+Plugin 'Shougo/vimproc.vim.git' 
+Plugin 'Quramy/vison.git' 
+Plugin 'mattn/webapi-vim.git' 
+Plugin 'tpope/vim-pathogen.git' 
+
+call vundle#end()
+filetype plugin indent on
 set si
 
 " disable bell!
 set noeb vb t_vb=
 
-
-filetype plugin indent on
 filetype plugin on
 set noexpandtab tabstop=4 shiftwidth=4 textwidth=0
 
