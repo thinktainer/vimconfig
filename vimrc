@@ -5,7 +5,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'kylef/apiblueprint.vim.git' 
 Plugin 'Townk/vim-autoclose.git' 
