@@ -55,7 +55,6 @@ Plugin 'jimenezrick/vimerl'
 Plugin 'Shougo/vimproc.vim.git' 
 Plugin 'Quramy/vison.git' 
 Plugin 'mattn/webapi-vim.git' 
-Plugin 'tpope/vim-pathogen.git' 
 
 call vundle#end()
 filetype plugin indent on
