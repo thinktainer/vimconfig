@@ -1,4 +1,3 @@
-set background=dark
 "leader
 let mapleader=","
 
@@ -56,6 +55,7 @@ Plugin 'tpope/vim-unimpaired.git'
 Plugin 'jimenezrick/vimerl'
 Plugin 'Quramy/vison.git'
 Plugin 'mattn/webapi-vim.git'
+Plugin 'markcornick/vim-terraform'
 
 call vundle#end()
 filetype plugin indent on
