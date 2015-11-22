@@ -172,3 +172,8 @@ let g:tslime_ensure_trailing_newlines=1
 "Bufferlist
 nnoremap <Leader>b :Bufferlist<Cr>
 
+if filereadable(expand("~/.vimrc_background"))
+	let base16colorspace=256
+	source ~/.vimrc_background
+endif
+
