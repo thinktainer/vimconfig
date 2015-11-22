@@ -1,4 +1,3 @@
-set background=dark
 "leader
 let mapleader=","
 
@@ -56,6 +55,7 @@ Plugin 'tpope/vim-unimpaired.git'
 Plugin 'jimenezrick/vimerl'
 Plugin 'Quramy/vison.git'
 Plugin 'mattn/webapi-vim.git'
+Plugin 'markcornick/vim-terraform'
 
 call vundle#end()
 filetype plugin indent on
@@ -172,3 +172,7 @@ let g:tslime_ensure_trailing_newlines=1
 "Bufferlist
 nnoremap <Leader>b :Bufferlist<Cr>
 
+if filereadable(expand("~/.vimrc_background"))
+	let base16colorspace=256
+	source ~/.vimrc_background
+endif
