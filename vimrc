@@ -28,7 +28,6 @@ Plugin 'pivotal/tmux-config.git'
 Plugin 'edkolev/tmuxline.vim.git'
 Plugin 'sjl/tslime.vim.git'
 Plugin 'bling/vim-airline.git'
-Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-bundler.git'
 Plugin 'thinktainer/vim-cache-dirs.git'
 Plugin 'altercation/vim-colors-solarized.git'
@@ -56,6 +55,8 @@ Plugin 'jimenezrick/vimerl'
 Plugin 'Quramy/vison.git'
 Plugin 'mattn/webapi-vim.git'
 Plugin 'markcornick/vim-terraform'
+Plugin 'Shougo/vimproc.vim'
+Plugin 'Shougo/unite.vim.git'
 
 call vundle#end()
 filetype plugin indent on
@@ -169,11 +170,12 @@ let base16colorspace=256  " Access colors present in 256 colorspace "
 "tslime
 let g:tslime_ensure_trailing_newlines=1
 
-"Bufferlist
-nnoremap <Leader>b :Bufferlist<Cr>
-
 if filereadable(expand("~/.vimrc_background"))
 	let base16colorspace=256
 	source ~/.vimrc_background
 endif
+
+"unite
+nnoremap <Leader>b :Unite buffer<CR>
+nnoremap <C-p> :Unite -start-insert file_rec/async<CR>
 
