@@ -56,6 +56,7 @@ Plugin 'jimenezrick/vimerl'
 Plugin 'Quramy/vison.git'
 Plugin 'mattn/webapi-vim.git'
 Plugin 'markcornick/vim-terraform'
+Plugin 'OmniSharp/omnisharp-vim'
 
 call vundle#end()
 filetype plugin indent on
