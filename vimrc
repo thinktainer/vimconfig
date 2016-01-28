@@ -59,7 +59,6 @@ Plugin 'Shougo/vimproc.vim'
 Plugin 'Shougo/unite.vim.git'
 Plugin 'OmniSharp/omnisharp-vim'
 Plugin 'fsharp/vim-fsharp'
-Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
 filetype plugin indent on
