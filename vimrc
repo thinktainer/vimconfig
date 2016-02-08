@@ -28,6 +28,7 @@ Plugin 'pivotal/tmux-config.git'
 Plugin 'edkolev/tmuxline.vim.git'
 Plugin 'sjl/tslime.vim.git'
 Plugin 'bling/vim-airline.git'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-bundler.git'
 Plugin 'thinktainer/vim-cache-dirs.git'
 Plugin 'altercation/vim-colors-solarized.git'
@@ -186,5 +187,14 @@ nnoremap <C-p> :Unite -start-insert file_rec/async<CR>
 
 
 " F#, fsharp
-autocmd BufNewFile,BufRead *.fs,*.fsi,*.fsx set filetype=fsharp
+augroup fsharp
+    au!
+    autocmd BufNewFile,BufRead,BufEnter *.fs,*.fsi,*.fsx set filetype=fsharp et ts=4 sw=4
+    autocmd FileType fsharp nnoremap <Leader>r :FsiEvalBuffer<Enter>
+    autocmd FileType fsharp nnoremap <Leader><space> :FsiShow<Enter>
+    autocmd FileType fsharp nnoremap <Leader>c :FsiClear <Enter>
+    autocmd BufLeave *.fs,*.fsi,*.fsx nunmap <Leader>r
+    autocmd BufLeave *.fs,*.fsi,*.fsx nunmap <Leader><space>
+    autocmd BufLeave *.fs,*.fsi,*.fsx nunmap <Leader>c
+augroup END
 
