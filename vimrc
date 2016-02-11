@@ -9,7 +9,6 @@ Plugin 'scrooloose/nerdtree.git'
 Plugin 'kylef/apiblueprint.vim.git'
 Plugin 'Townk/vim-autoclose.git'
 Plugin 'chriskempson/base16-vim.git'
-Plugin 'vim-scripts/buffet.vim.git'
 Plugin 'rizzatti/dash.vim.git'
 Plugin 'editorconfig/editorconfig-vim.git'
 Plugin 'elixir-lang/vim-elixir.git'
@@ -155,46 +154,49 @@ au BufRead,BufNewFile *.json set filetype=json
 au FileType json setl sw=2 ts=2 et
 let g:syntastic_json_checkers = ['jsonlint']
 
-" erlang
-au FileType erlang set sw=2 ts=2 et
-
-" airline
-let g:airline_powerline_fonts=1
-let g:airline_theme='laederon'
-
-"editorconfig
-let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
-let g:EditorConfig_exec_path = '/usr/local/bin/editorconfig'
+augroup js
+	au!
+	autocmd FileType javascript call RagtagInit()
+augroup end
 
 
-"base16
-let base16colorspace=256  " Access colors present in 256 colorspace "
+	" erlang
+	au FileType erlang set sw=2 ts=2 et
 
-"tslime
-let g:tslime_ensure_trailing_newlines=1
+	" airline
+	let g:airline_powerline_fonts=1
+	let g:airline_theme='base16'
 
-"Bufferlist
-nnoremap <Leader>b :Bufferlist<Cr>
-
-if filereadable(expand("~/.vimrc_background"))
-	let base16colorspace=256
-	source ~/.vimrc_background
-endif
-
-"unite
-nnoremap <Leader>b :Unite buffer<CR>
-nnoremap <C-p> :Unite -start-insert file_rec/async<CR>
+	"editorconfig
+	let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
+	let g:EditorConfig_exec_path = '/usr/local/bin/editorconfig'
 
 
-" F#, fsharp
-augroup fsharp
-    au!
-    autocmd BufNewFile,BufRead,BufEnter *.fs,*.fsi,*.fsx set filetype=fsharp et ts=4 sw=4
-    autocmd FileType fsharp nnoremap <Leader>r :FsiEvalBuffer<Enter>
-    autocmd FileType fsharp nnoremap <Leader><space> :FsiShow<Enter>
-    autocmd FileType fsharp nnoremap <Leader>c :FsiClear <Enter>
-    autocmd BufLeave *.fs,*.fsi,*.fsx nunmap <Leader>r
-    autocmd BufLeave *.fs,*.fsi,*.fsx nunmap <Leader><space>
-    autocmd BufLeave *.fs,*.fsi,*.fsx nunmap <Leader>c
-augroup END
+	"base16
+	let base16colorspace=256  " Access colors present in 256 colorspace "
+
+	"tslime
+	let g:tslime_ensure_trailing_newlines=1
+
+	if filereadable(expand("~/.vimrc_background"))
+		let base16colorspace=256
+		source ~/.vimrc_background
+	endif
+
+	"unite
+	nnoremap <Leader>b :Unite buffer<CR>
+	nnoremap <C-p> :Unite -start-insert file_rec/async<CR>
+
+
+	" F#, fsharp
+	augroup fsharp
+		au!
+		autocmd BufNewFile,BufRead,BufEnter *.fs,*.fsi,*.fsx set filetype=fsharp et ts=4 sw=4
+		autocmd FileType fsharp nnoremap <Leader>r :FsiEvalBuffer<Enter>
+		autocmd FileType fsharp nnoremap <Leader><space> :FsiShow<Enter>
+		autocmd FileType fsharp nnoremap <Leader>c :FsiClear <Enter>
+		autocmd BufLeave *.fs,*.fsi,*.fsx nunmap <Leader>r
+		autocmd BufLeave *.fs,*.fsi,*.fsx nunmap <Leader><space>
+		autocmd BufLeave *.fs,*.fsi,*.fsx nunmap <Leader>c
+	augroup END
 
