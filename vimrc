@@ -54,11 +54,12 @@ Plugin 'tpope/vim-unimpaired.git'
 Plugin 'jimenezrick/vimerl'
 Plugin 'Quramy/vison.git'
 Plugin 'mattn/webapi-vim.git'
-Plugin 'markcornick/vim-terraform'
+Plugin 'hashivim/vim-terraform'
 Plugin 'Shougo/vimproc.vim'
 Plugin 'Shougo/unite.vim.git'
 Plugin 'OmniSharp/omnisharp-vim'
 Plugin 'fsharp/vim-fsharp'
+Plugin 'elmcast/elm-vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -160,43 +161,60 @@ augroup js
 augroup end
 
 
-	" erlang
-	au FileType erlang set sw=2 ts=2 et
+" erlang
+au FileType erlang set sw=2 ts=2 et
 
-	" airline
-	let g:airline_powerline_fonts=1
-	let g:airline_theme='base16'
+" airline
+let g:airline_powerline_fonts=1
+let g:airline_theme='serene'
 
-	"editorconfig
-	let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
-	let g:EditorConfig_exec_path = '/usr/local/bin/editorconfig'
-
-
-	"base16
-	let base16colorspace=256  " Access colors present in 256 colorspace "
-
-	"tslime
-	let g:tslime_ensure_trailing_newlines=1
-
-	if filereadable(expand("~/.vimrc_background"))
-		let base16colorspace=256
-		source ~/.vimrc_background
-	endif
-
-	"unite
-	nnoremap <Leader>b :Unite buffer<CR>
-	nnoremap <C-p> :Unite -start-insert file_rec/async<CR>
+"editorconfig
+let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
+let g:EditorConfig_exec_path = '/usr/local/bin/editorconfig'
 
 
-	" F#, fsharp
-	augroup fsharp
-		au!
-		autocmd BufNewFile,BufRead,BufEnter *.fs,*.fsi,*.fsx set filetype=fsharp et ts=4 sw=4
-		autocmd FileType fsharp nnoremap <Leader>r :FsiEvalBuffer<Enter>
-		autocmd FileType fsharp nnoremap <Leader><space> :FsiShow<Enter>
-		autocmd FileType fsharp nnoremap <Leader>c :FsiClear <Enter>
-		autocmd BufLeave *.fs,*.fsi,*.fsx nunmap <Leader>r
-		autocmd BufLeave *.fs,*.fsi,*.fsx nunmap <Leader><space>
-		autocmd BufLeave *.fs,*.fsi,*.fsx nunmap <Leader>c
-	augroup END
+"base16
+let base16colorspace=256  " Access colors present in 256 colorspace "
+
+"tslime
+let g:tslime_ensure_trailing_newlines=1
+
+if filereadable(expand("~/.vimrc_background"))
+	let base16colorspace=256
+	source ~/.vimrc_background
+endif
+
+"unite
+nnoremap <Leader>b :Unite buffer<CR>
+nnoremap <C-p> :Unite -start-insert file_rec/async<CR>
+
+
+" F#, fsharp
+augroup fsharp
+	au!
+	autocmd BufNewFile,BufRead,BufEnter *.fs,*.fsi,*.fsx set filetype=fsharp et ts=4 sw=4
+	autocmd FileType fsharp nnoremap <Leader>r :FsiEvalBuffer<Enter>
+	autocmd FileType fsharp nnoremap <Leader><space> :FsiShow<Enter>
+	autocmd FileType fsharp nnoremap <Leader>c :FsiClear <Enter>
+	autocmd BufLeave *.fs,*.fsi,*.fsx nunmap <Leader>r
+	autocmd BufLeave *.fs,*.fsi,*.fsx nunmap <Leader><space>
+	autocmd BufLeave *.fs,*.fsi,*.fsx nunmap <Leader>c
+augroup END
+
+" elm
+let g:elm_jump_to_error = 1
+let g:elm_make_output_file = "elm.js"
+let g:elm_make_show_warnings = 0
+"let g:elm_browser_command = ""
+let g:elm_detailed_complete = 0
+let g:elm_format_autosave = 0
+au FileType elm nmap <leader>c <Plug>(elm-make)
+au FileType elm nmap <leader>m <Plug>(elm-make-main)
+au FileType elm nmap <leader>t <Plug>(elm-test)
+au FileType elm nmap <leader>r <Plug>(elm-repl)
+au FileType elm nmap <leader>e <Plug>(elm-error-detail)
+au FileType elm nmap <leader>d <Plug>(elm-show-docs)
+au FileType elm nmap <leader>w <Plug>(elm-browse-docs)
+
+au FileType haskell set et sw=4 ts=4
 
