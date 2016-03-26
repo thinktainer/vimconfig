@@ -195,11 +195,12 @@ augroup fsharp
 	autocmd BufNewFile,BufRead,BufEnter *.fs,*.fsi,*.fsx set filetype=fsharp et ts=4 sw=4
 	autocmd FileType fsharp nnoremap <Leader>r :FsiEvalBuffer<Enter>
 	autocmd FileType fsharp nnoremap <Leader><space> :FsiShow<Enter>
-	autocmd FileType fsharp nnoremap <Leader>c :FsiClear <Enter>
-	autocmd BufLeave *.fs,*.fsi,*.fsx nunmap <Leader>r
-	autocmd BufLeave *.fs,*.fsi,*.fsx nunmap <Leader><space>
-	autocmd BufLeave *.fs,*.fsi,*.fsx nunmap <Leader>c
+	autocmd FileType fsharp nnoremap <Leader>c :FsiClear<Enter>
+	autocmd BufLeave *.fs,*.fsi,*.fsx silent! nunmap <Leader>r
+	autocmd BufLeave *.fs,*.fsi,*.fsx silent! nunmap <Leader><space>
+	autocmd BufLeave *.fs,*.fsi,*.fsx silent! nunmap <Leader>c
 augroup END
+
 
 " elm
 let g:elm_jump_to_error = 1
